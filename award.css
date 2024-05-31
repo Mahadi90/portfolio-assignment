@@ -1,0 +1,54 @@
+#award{
+    color: white;
+    padding: 50px 100px;
+}
+.award-title{
+    text-align: center;
+}
+.award-title h2{
+    font-size: 30px;
+}
+.award-title p{
+    color: rgb(159, 157, 157);
+    margin-top: 10px;
+}
+
+.award-card{
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.award-card p{
+   color: rgb(158, 156, 156);
+   width: 50%;
+}
+.award-card h3{
+   color: rgb(208, 205, 205);
+}
+.award-card-min-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* responsive */
+@media screen and (min-width : 200px)  and (max-width : 576px){
+    #award{
+        color: white;
+        padding: 20px 10px;
+        padding-top: 50px;
+    }
+    
+    .award-card{
+        padding: 10px;
+    }
+    .award-card p{
+       width: 100%;
+    }
+    .award-card-min-parent{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+}
