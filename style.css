@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(24, 24, 24);
+    height: 100%;
+    margin: 0 20px;
+    padding: 0 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+ nav .logo-img{
+    width: 50px;
+    height: 50px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+ }
+ .btn-cv{
+    color: white;
+    background: orangered;
+    padding: 12px 24px;
+    font-size: 20px;
+ }
+
+ /* banner section start from here */
+#banner{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+}
+ .banner-description{
+    width: 50%;
+ }
+ .banner-img{
+    width: 50%;
+ }
+ .banner-img img{
+  height: 500px;
+  margin-left: 15px;
+ }
+ .banner-description .title{
+    color: white;
+    font-size: 50px;
+ }
+ .banner-p{
+    color: gray;
+    margin: 10px auto;
+ }
+ .banner-description ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ .banner-description ul li{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(187, 186, 186);
+ }
+ .portfolio-btn{
+    padding: 5px 14px;
+    border-radius: 30px;
+    border: 2px solid rgb(101, 100, 100);
+    background-color: gray;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+ }
+ .portfolio-btn > button{
+    background-color: rgb(232, 76, 20);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+ }
