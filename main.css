@@ -1,0 +1,75 @@
+#about-me{
+    color: white;
+    padding: 50px 100px;
+}
+.title-section{
+    display: flex;
+    justify-content: space-between;
+}
+.about-title h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.about-title p{
+    color: rgb(107, 105, 105);
+}
+.starts{
+    color: orangered;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.card{
+    background: rgb(69, 67, 67);
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-parent{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.cart-title{
+    font-size: 25px;
+    color: orangered;
+}
+.card-des{
+    color: rgb(219, 214, 214);
+    margin-top: 10px;
+}
+
+.extra-experience-section{
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 100px 100px;
+  background-image: linear-gradient(to left, #ffb2472d, #ff6b6336 ,#b86adf30);
+  color: white;
+}
+.left-ex{
+    width: 40%;
+}
+.left-ex h2{
+    margin: 15px 0;
+    font-size: 30px;
+}
+.left-ex p{
+    text-align: justify;
+}
+.right-ex{
+    width: 50%;
+}
+.right-ex h2{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.bold-p{
+    font-weight: bold;
+}
+.date-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
