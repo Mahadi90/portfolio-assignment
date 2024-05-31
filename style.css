@@ -122,19 +122,23 @@ nav ul li{
 
  /* main section start from here */
  main{
-    background-color: rgb(24, 24, 24);
+    background-color: black;
     height: 100%;
     margin: 0 20px;
-    padding: 10px 100px;
+    
  }
  /* belt section start from here */
+ .belt-s{
+    background-color: rgb(24, 24, 24);
+ }
  .belt{
     background-color: black;
     color: rgb(179, 176, 176);
    transform: rotate(-5deg);
     position: relative;
     top: -100px;
-    left : 0;
+    right : 8px;
+    width: 102%;
  }
  .belt ul{
     display: flex;
@@ -145,4 +149,95 @@ nav ul li{
  .belt ul li{
     font-size: 20px;
     font-weight: bold;
+ }
+
+ /* responsive designe */
+ @media screen and (min-width : 200px)  and (max-width : 576px){
+    header{
+        height: 100%;
+        margin: 0px;
+        padding: 2px;
+    }
+    /* nav */
+    nav{
+       width: 100%; 
+       padding: auto 5px;
+    }
+    nav .logo-img{
+        width: 20px;
+        height: 20px;
+    }
+   
+    nav ul li{
+        margin-left: 10px;
+    }
+     nav ul li a{
+        font-size: 14px;
+     }
+     .btn-cv{
+        color: white;
+        background: orangered;
+        padding: 6px 12px;
+        font-size: 14px;
+     }
+
+     /* banner */
+    #banner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-description{
+        width: 100%;
+        padding: 5px 5px;
+     }
+     .banner-img{
+        width: 100%;
+        padding: 5px 5px;
+     }
+    .banner-img .banner-img-bg{
+        background: #000;
+        width: 300px;
+        height: 300px;
+     }
+     .banner-img img{
+      height: 300px;
+      position: absolute;
+      top: -50px;
+      left : -0px;
+     }
+     .banner-description .title{
+        font-size: 30px;
+     }
+    
+   
+     .portfolio-btn{
+        padding: 5px 14px;
+     }
+     .portfolio-btn > button{
+        margin-right: 2px;
+     }
+    
+     .social-icon i{
+        font-size: 35px;
+        margin-right: 10px;
+     }
+
+     /* main */
+     main{
+        margin: 0;
+        padding: 0;
+     }
+     /* belt section start from here */
+     .belt{
+        top: -80px;
+        left : 0;
+        padding: 0 10px;
+     }
+     .belt ul{
+        flex-wrap: wrap;
+       padding: 10px 8px;
+     }
+     .belt ul li{
+        margin-left: 5px;
+     }
  }
