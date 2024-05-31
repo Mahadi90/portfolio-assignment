@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +9,7 @@
 
 body{
     background-color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 header{
@@ -24,7 +28,7 @@ nav ul{
     display: flex;
     align-items: center;
 }
- nav .logo-img{
+.logo-img{
     width: 50px;
     height: 50px;
 }
@@ -42,6 +46,8 @@ nav ul li{
     background: orangered;
     padding: 12px 24px;
     font-size: 20px;
+    cursor: pointer;
+    border: none;
  }
 
  /* banner section start from here */
@@ -115,9 +121,14 @@ nav ul li{
     margin-top: 15px;
     color: gray;
  }
- .social-icon i{
+ .social-icon a i{
     font-size: 25px;
     margin-right: 10px;
+    cursor: pointer;
+ }
+ .social-icon a{
+    text-decoration:  none;
+    color: white;
  }
 
  /* main section start from here */
@@ -149,7 +160,43 @@ nav ul li{
  .belt ul li{
     font-size: 20px;
     font-weight: bold;
+    text-transform: uppercase;
  }
+
+ /* footer */
+
+ footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+ }
+ footer .logo-img{
+    width: 100px;
+    height: 100px;
+ }
+ footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+footer ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+ footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+ }
+footer h3{
+    background:  rgb(24, 24, 24);
+    margin-top: 30px;
+    padding: 20px 0;
+    color: white;
+}
 
  /* responsive designe */
  @media screen and (min-width : 200px)  and (max-width : 576px){
@@ -164,8 +211,8 @@ nav ul li{
        padding: auto 5px;
     }
     nav .logo-img{
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
     }
    
     nav ul li{
@@ -240,4 +287,12 @@ nav ul li{
      .belt ul li{
         margin-left: 5px;
      }
+
+     /* footer */
+     footer ul{
+        flex-wrap: wrap;
+     }
+     footer ul li{
+        margin-left: 30px;
+    }
  }
