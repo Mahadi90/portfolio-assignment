@@ -12,7 +12,7 @@ header{
     background-color: rgb(24, 24, 24);
     height: 100%;
     margin: 0 20px;
-    padding: 0 100px;
+    padding: 10px 100px;
 }
 nav{
     display: flex;
@@ -71,8 +71,8 @@ nav ul li{
   height: 600px;
   margin-left: 15px;
   position: absolute;
-  top: -130px;
-  left : -40px;
+  top: -140px;
+  left : -20px;
  }
  .banner-description .title{
     color: white;
@@ -118,4 +118,31 @@ nav ul li{
  .social-icon i{
     font-size: 25px;
     margin-right: 10px;
+ }
+
+ /* main section start from here */
+ main{
+    background-color: rgb(24, 24, 24);
+    height: 100%;
+    margin: 0 20px;
+    padding: 10px 100px;
+ }
+ /* belt section start from here */
+ .belt{
+    background-color: black;
+    color: rgb(179, 176, 176);
+   transform: rotate(-5deg);
+    position: relative;
+    top: -100px;
+    left : 0;
+ }
+ .belt ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 50px 40px;
+ }
+ .belt ul li{
+    font-size: 20px;
+    font-weight: bold;
  }
