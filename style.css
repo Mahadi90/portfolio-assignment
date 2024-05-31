@@ -47,19 +47,32 @@ nav ul li{
  /* banner section start from here */
 #banner{
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     width: 100%;
+    margin-top: 30px;
 }
  .banner-description{
     width: 50%;
  }
  .banner-img{
     width: 50%;
+    margin-left: 50px;
+ }
+ .banner-img .banner-img-bg{
+    background: #000;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 50%;
+    border: 4px solid rgb(100, 100, 100);
+    margin-top: 70px;
  }
  .banner-img img{
-  height: 500px;
+  height: 600px;
   margin-left: 15px;
+  position: absolute;
+  top: -130px;
+  left : -40px;
  }
  .banner-description .title{
     color: white;
@@ -95,5 +108,14 @@ nav ul li{
     border-radius: 30px;
     font-size: 18px;
     color: white;
+    margin-right: 10px;
+ }
+
+ .social-icon{
+    margin-top: 15px;
+    color: gray;
+ }
+ .social-icon i{
+    font-size: 25px;
     margin-right: 10px;
  }
