@@ -73,3 +73,45 @@
   align-items: center;
   margin: 10px 0;
 }
+
+
+/* responsive  */
+
+@media screen and (min-width : 200px)  and (max-width : 576px){
+    #about-me{
+        padding: 50px 0px;
+    }
+    .title-section{
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 10px;
+    }
+    
+    .card-parent{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .cart-title{
+        font-size: 25px;
+        color: orangered;
+    }
+    .card-des{
+        color: rgb(219, 214, 214);
+        margin-top: 10px;
+    }
+    
+    .extra-experience-section{
+      flex-direction: column;
+      padding: 10px;
+      
+    }
+    .left-ex{
+        width: 100%;
+    }
+    
+    .right-ex{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+}
